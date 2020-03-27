@@ -83,7 +83,6 @@ nav ul li {
 }
 
 .left-container {
-    width: 450;
     height: 500px;
     background-color: f7f5f5;
     margin-top: 1.5em;
@@ -131,8 +130,6 @@ nav ul li {
     justify-content: space-between;
     height: px;
 }
-
-.profile-button {}
 
 .odin a {
     font-family: Roboto, Arial, sans-serif;
@@ -240,16 +237,18 @@ font-family: Roboto, Arial, sans-serif;
 
 .right-container {
     margin-top: 1.5em;
-    background-color: #f7f5f5;
+    background-color: #c73737;
     margin-left: 20px;
     margin-right: -10px;
-    width: 370px;
+    width: 450px;
+    margin-right: -30px;
 }
 .up-next{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     line-height: 1rem;
+    background-color: greenyellow;
 }
 .up-next p{
     font-family: Roboto, Arial, sans-serif;
@@ -261,7 +260,20 @@ font-family: Roboto, Arial, sans-serif;
     color: gray;
     font-family: Roboto, Arial, sans-serif;
     font-size: 14px;
+}.video p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 11px;
 }
-.autoplay{
-  
+.video{
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+
+}
+.right-description{
+    line-height: 5px;
+}
+.right-description {
+
+
 }
