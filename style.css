@@ -173,17 +173,21 @@ text-decoration: none;
     .sort-sections{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        line-height: 1em;
     }
-    .sort-sections p{
-      
-        font-size: 12px;
-    }
-    .sort-sections a{
+.sort-sections p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+}   
+ .sort-sections a{
         text-decoration: none;
         color: gray;  
         font-family: Roboto, Arial, sans-serif;
         font-size: 12px;
-        margin-right: -20px;
+    }
+    .shift-button{
+   margin-down: -430px;
     }
    
 
