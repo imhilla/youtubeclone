@@ -1,7 +1,67 @@
 body {
     background-color: #f7f5f5;
 }
+.main-container{
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+}
 nav{
     display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    margin-top: -10px;
+}
+nav ul {
+    display: flex;
+    margin-right: -10px;
+    list-style-type: none;
+}
+nav ul li {
+    padding: 2rem;
+    list-style: none;
+    margin-left: -40px;
+    margin-top: -20px;
+    color: rgb(233, 233, 233);
+}
+
+.left-bar{
+    display: flex;
     flex-direction: row;
+}
+.left-bar {
+    display: flex;
+    flex: 1;
+    justify-content: start;
+    margin-top: 0.5rem;
+}
+.logo {
+    margin-left: 1rem;
+    margin-bottom: -2rem;
+    height: 30px;
+}
+#search-bar {
+    margin-right: 130px !important;
+    margin-top: 1.5rem;
+    border-color: white;
+}
+
+.menu-button {
+    height: 5px;
+    border: 0;
+    background-color: white;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+#search-bar input {
+    height: 20px;
+
+}
+#search-bar button {
+    height: 26px;
+    width: 60px;
+    cursor: pointer;
+    margin-left: -20px !important;
 }
