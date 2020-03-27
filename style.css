@@ -237,7 +237,7 @@ font-family: Roboto, Arial, sans-serif;
 
 .right-container {
     margin-top: 1.5em;
-    background-color: #c73737;
+    background-color: #f7f5f5;
     margin-left: 20px;
     margin-right: -10px;
     width: 450px;
@@ -248,7 +248,6 @@ font-family: Roboto, Arial, sans-serif;
     flex-direction: row;
     justify-content: space-between;
     line-height: 1rem;
-    background-color: greenyellow;
 }
 .up-next p{
     font-family: Roboto, Arial, sans-serif;
@@ -267,7 +266,8 @@ font-family: Roboto, Arial, sans-serif;
 .video{
     display: flex;
     flex-direction: row;
-    background-color: green;
+    justify-content: space-between;
+    background-color: #f7f5f5;
 
 }
 .right-description{
