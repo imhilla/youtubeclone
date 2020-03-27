@@ -73,8 +73,12 @@ nav ul li {
     height: 500px;
     background-color: white;
     margin-top: 1.5em;
-
-
+}
+.title {
+    color: #212121;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 10px;
 }
 .right-container{
 
