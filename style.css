@@ -1,8 +1,3 @@
-.main-container{
-  
-}
-nav{
-    display: flex;
-    flex-direction: row;
-    color: blue;
+body {
+    background-color: #f7f5f5;
 }
