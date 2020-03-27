@@ -97,7 +97,8 @@ nav ul li {
     background-color: #f7f5f5;
 
 }
-.views-date{
+
+.views-date {
     font-family: Roboto, Arial, sans-serif;
 
 }
@@ -133,7 +134,7 @@ nav ul li {
 
 .profile-button {}
 
-.odin a{
+.odin a {
     font-family: Roboto, Arial, sans-serif;
     text-decoration: none;
 
@@ -141,7 +142,7 @@ nav ul li {
 
 .subscribe {
     color: white;
-    background-color:#cc0000;
+    background-color: #cc0000;
     border-radius: 2px;
     cursor: pointer;
     margin-top: 20px;
@@ -154,41 +155,45 @@ nav ul li {
 
 .column-text {
     font-family: Roboto, Arial, sans-serif;
-  margin-left: -45px;
+    margin-left: -45px;
 
 }
-.column-text p{
+
+.column-text p {
     font-size: 12px;
     line-height: 1em;
     margin-left: -45px;
-  font-family: Roboto, Arial, sans-serif;
-  color: #0d0d0d;
+    font-family: Roboto, Arial, sans-serif;
+    color: #0d0d0d;
 }
-    .show-more a{
-text-decoration: none;
-        color: gray;
-        font-size: 0.8rem; margin-left: -45px;
-       
-    }
-    .sort-sections{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        line-height: 1em;
-    }
-.sort-sections p{
+
+.show-more a {
+    text-decoration: none;
+    color: gray;
+    font-size: 0.8rem;
+    margin-left: -45px;
+
+}
+
+.sort-sections {
+    display: flex;
+    flex-direction: row;
+ justify-content: space-between;
+
+}
+.sort-sections p {
     font-family: Roboto, Arial, sans-serif;
     font-size: 13px;
-}   
- .sort-sections a{
-        text-decoration: none;
-        color: gray;  
-        font-family: Roboto, Arial, sans-serif;
-        font-size: 12px;
-    }
-    .shift-button{
-   margin-down: -430px;
-    }
-   
+    margin-top:-1px ;
+}
+
+.sort-sections a {
+    text-decoration: none;
+    color: gray;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 12px;
+    margin-left: -600px;
+}
+
 
 .right-container {}
