@@ -12,41 +12,13 @@ nav{
     width: 100%;
     background-color: white;
     margin-top: -10px;
-}
-nav ul {
-    display: flex;
-    margin-right: -10px;
-    list-style-type: none;
-}
-nav ul li {
-    padding: 2rem;
-    list-style: none;
-    margin-left: -40px;
-    margin-top: -20px;
-    color: rgb(233, 233, 233);
-}
-
-.left-bar{
-    display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
 .left-bar {
     display: flex;
-    flex: 1;
     justify-content: start;
     margin-top: 0.5rem;
 }
-.logo {
-    margin-left: 1rem;
-    margin-bottom: -2rem;
-    height: 30px;
-}
-#search-bar {
-    margin-right: 200px !important;
-    margin-top: 1.5rem;
-    border-color: white;
-}
-
 .menu-button {
     height: 5px;
     border: 0;
@@ -55,59 +27,54 @@ nav ul li {
     margin-top: 1rem;
     cursor: pointer;
 }
+.logo {
+    margin-left: 1rem;
+    margin-bottom: -2rem;
+    height: 30px;
+}
+#search-bar {
+    margin-top: 1.5rem;
+    border-color: white;
+   
+}nav ul {
+    display: flex;
+    margin-right: -10px;
+    list-style-type: none;
+}nav ul li {
+    padding: 2rem;
+    list-style: none;
+    margin-left: -40px;
+    margin-top: -20px;
+    color: rgb(233, 233, 233);
+}
 #search-bar input {
     height: 20px; 
 
-}
-#search-bar button {
+}#search-bar {
+    margin-top: 1.5rem;
+    border-color: white;
+} #search-bar button {
     height: 26px;
     width: 60px;
     cursor: pointer;
-    margin-left: -20px !important;
+    margin-left: -8px !important;
 }
-.body-container{
-    display: flex;
-    margin-left: 8%;
-    margin-right: 10%;
-    background-color: b#f7f5f5;
+
+/*
 
 
-}
+
+
+
+
+
+
+
+
+
+
 .left-container{
-    width: 60%;
-    height: 500px;
-    background-color: white;
-    margin-top: 1.5em;
-}
-.title {
-    color: #212121;
-    font-family: Roboto, Arial, sans-serif;
-    font-weight: normal;
-    font-size: 10px;
-}
-.views-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: grey;
 
-}
-.views-date {
-    display: flex;
-    justify-content: flex-start;
-}
-.likes-section a {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0.5rem;
-    text-decoration: none;
-    color: grey;
-    border-bottom: grey;
-
-}
-.likes-section img {
-    margin: 0.3rem;
 }
 .right-container{
 
