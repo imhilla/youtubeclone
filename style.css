@@ -85,7 +85,7 @@ nav ul li {
 .left-container {
     width: 450;
     height: 500px;
-    background-color: white;
+   background-color:  f7f5f5;
     margin-top: 1.5em;
 }
 
@@ -94,6 +94,7 @@ nav ul li {
     font-family: Roboto, Arial, sans-serif;
     font-weight: normal;
     font-size: 10px;
+    background-color: #f7f5f5;
 
 }
 .views-container {
@@ -101,6 +102,16 @@ nav ul li {
     align-items: center;
     justify-content: space-between;
     color: grey;
+    height: 20px;
+}
+.likes-section a {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+    text-decoration: none;
+    color: grey;
+    border-bottom: grey;
 }
 
 .right-container {}
