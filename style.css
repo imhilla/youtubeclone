@@ -194,6 +194,51 @@ nav ul li {
     font-size: 12px;
     margin-left: -600px;
 }
+.comment-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
+}
+.first-profile{
+    height: 
+}
+.public-comment{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.public-comment p {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1em;
+    margin-left: -640px;
+    color: gray;
+}
+.public-comment hr{
+    margin-left: -640px;
+}
+.first-comment{
+    display: flex;
+    flex-direction: row;
+    font-family: Roboto, Arial, sans-serif;
+    line-height: 0.2rem;
+}
+.prof1{
+font-size: 12px;
+}
+.profile-column{
+    font-family: Roboto, Arial, sans-serif;
+}
+.prof2{
+font-size: 12px;
+}
+.prof3 a{
+list-style-type: none;
+color: gray;
+text-decoration: none;
+font-family: Roboto, Arial, sans-serif;
+}
 
 .right-container {}
