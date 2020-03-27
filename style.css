@@ -97,6 +97,10 @@ nav ul li {
     background-color: #f7f5f5;
 
 }
+.views-date{
+    font-family: Roboto, Arial, sans-serif;
+
+}
 
 .views-container {
     display: flex;
@@ -137,11 +141,14 @@ nav ul li {
 
 .subscribe {
     color: white;
-    background-color: rgb(207, 23, 23);
+    background-color:#cc0000;
     border-radius: 2px;
     cursor: pointer;
+    margin-top: 20px;
     margin-left: -30px;
     line-height: 1em;
+    border: 0;
+    padding: 10px 16px;
 
 }
 
@@ -162,6 +169,21 @@ text-decoration: none;
         color: gray;
         font-size: 0.8rem; margin-left: -45px;
        
+    }
+    .sort-sections{
+        display: flex;
+        flex-direction: row;
+    }
+    .sort-sections p{
+      
+        font-size: 12px;
+    }
+    .sort-sections a{
+        text-decoration: none;
+        color: gray;  
+        font-family: Roboto, Arial, sans-serif;
+        font-size: 12px;
+        margin-right: -20px;
     }
    
 
