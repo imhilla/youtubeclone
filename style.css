@@ -83,7 +83,7 @@ nav ul li {
 }
 
 .left-container {
-    width: 60%;
+    width: 450;
     height: 500px;
     background-color: white;
     margin-top: 1.5em;
@@ -95,6 +95,12 @@ nav ul li {
     font-weight: normal;
     font-size: 10px;
 
+}
+.views-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: grey;
 }
 
 .right-container {}
