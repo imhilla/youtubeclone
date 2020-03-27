@@ -200,9 +200,6 @@ nav ul li {
     justify-content: space-between;
 
 }
-.first-profile{
-    height: 
-}
 .public-comment{
     display: flex;
     flex-direction: column;
@@ -241,4 +238,30 @@ text-decoration: none;
 font-family: Roboto, Arial, sans-serif;
 }
 
-.right-container {}
+.right-container {
+    margin-top: 1.5em;
+    background-color: #f7f5f5;
+    margin-left: 20px;
+    margin-right: -10px;
+    width: 370px;
+}
+.up-next{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 1rem;
+}
+.up-next p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 1px;
+
+}
+.up-next span {
+    color: gray;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+}
+.autoplay{
+  
+}
