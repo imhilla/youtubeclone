@@ -66,6 +66,11 @@ nav ul li {
     margin-left: -20px !important;
 }
 .body-container{
+    display: flex;
+    margin-left: 8%;
+    margin-right: 10%;
+    background-color: b#f7f5f5;
+
 
 }
 .left-container{
@@ -79,6 +84,30 @@ nav ul li {
     font-family: Roboto, Arial, sans-serif;
     font-weight: normal;
     font-size: 10px;
+}
+.views-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: grey;
+
+}
+.views-date {
+    display: flex;
+    justify-content: flex-start;
+}
+.likes-section a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+    text-decoration: none;
+    color: grey;
+    border-bottom: grey;
+
+}
+.likes-section img {
+    margin: 0.3rem;
 }
 .right-container{
 
