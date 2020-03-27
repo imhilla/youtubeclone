@@ -102,7 +102,7 @@ nav ul li {
     align-items: center;
     justify-content: space-between;
     color: grey;
-    height: 20px;
+    height: 25px;
 }
 .likes-section a {
     display: inline-block;
@@ -113,5 +113,10 @@ nav ul li {
     color: grey;
     border-bottom: grey;
 }
+.likes-section span{
+    font-size: 0.8rem;
+}
+.info-container{
 
+}
 .right-container {}
