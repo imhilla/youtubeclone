@@ -65,9 +65,17 @@ nav ul li {
     cursor: pointer;
     margin-left: -20px !important;
 }
+.body-container{
+
+}
 .left-container{
+    width: 60%;
+    height: 500px;
+    background-color: white;
+    margin-top: 1.5em;
+
 
 }
 .right-container{
-    
+
 }
