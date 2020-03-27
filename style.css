@@ -85,7 +85,7 @@ nav ul li {
 .left-container {
     width: 450;
     height: 500px;
-   background-color:  f7f5f5;
+    background-color: f7f5f5;
     margin-top: 1.5em;
 }
 
@@ -97,6 +97,7 @@ nav ul li {
     background-color: #f7f5f5;
 
 }
+
 .views-container {
     display: flex;
     align-items: center;
@@ -104,6 +105,7 @@ nav ul li {
     color: grey;
     height: 25px;
 }
+
 .likes-section a {
     display: inline-block;
     align-items: center;
@@ -113,10 +115,54 @@ nav ul li {
     color: grey;
     border-bottom: grey;
 }
-.likes-section span{
+
+.likes-section span {
     font-size: 0.8rem;
 }
-.info-container{
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: px;
+}
+
+.profile-button {}
+
+.odin a{
+    font-family: Roboto, Arial, sans-serif;
+    text-decoration: none;
 
 }
+
+.subscribe {
+    color: white;
+    background-color: rgb(207, 23, 23);
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: -30px;
+    line-height: 1em;
+
+}
+
+.column-text {
+    font-family: Roboto, Arial, sans-serif;
+  margin-left: -45px;
+
+}
+.column-text p{
+    font-size: 12px;
+    line-height: 1em;
+    margin-left: -45px;
+  font-family: Roboto, Arial, sans-serif;
+  color: #0d0d0d;
+}
+    .show-more a{
+text-decoration: none;
+        color: gray;
+        font-size: 0.8rem; margin-left: -45px;
+       
+    }
+   
+
 .right-container {}
