@@ -2,7 +2,7 @@
 This project consists of building an HTML document that matches the appearance of youtube
 The goal here was to produce an exact replica of the YouTube video page, but to focus on making the media elements show up.
 That meant two things – embedding the YouTube video player into the page so it actually plays and shows little thumbnail images along the right side.
-![snapshot](./img/youtubeclonesnapshot.PNG)
+![alt text](https://github.com/imhilaa/youtubeclone/feature/img/youtubeclone.png)
 ##Here are some of the things i did
 Created empty semantic HTML elements to enclose those sections.
 Used basic CSS to size and position the elements appropriately on the page. 
