@@ -1,7 +1,18 @@
 body {
     background-color: #f7f5f5;
 }
-
+nav , 
+.left-bar,
+.body-container, nav ul, .views-container, 
+.info-container, .comment-section, 
+.public-comment, .first-comment, 
+.up-next, .video
+{ 
+    display: flex;
+}
+.color{
+    background-color: white;
+}
 .main-container {
     margin-top: -10px;
     margin-left: auto;
@@ -9,6 +20,7 @@ body {
 }
 
 nav {
+    flex-direction: row;
     display: flex;
     height: 60px;
     width: 100%;
@@ -18,7 +30,6 @@ nav {
 }
 
 .left-bar {
-    display: flex;
     justify-content: start;
     margin-top: 0.5rem;
 }
@@ -38,14 +49,13 @@ nav {
     height: 30px;
 }
 
-#search-bar {
+.search-bar-1 {
     margin-top: 1.5rem;
     border-color: white;
 
 }
 
 nav ul {
-    display: flex;
     margin-right: -10px;
     list-style-type: none;
 }
@@ -57,18 +67,18 @@ nav ul li {
     color: rgb(233, 233, 233);
 }
 
-#search-bar input {
+.search-bar-1 input {
     height: 20px;
     margin: 0;
 
 }
 
-#search-bar {
+.search-bar-1 {
     margin-top: 1.5rem;
     border-color: white;
 }
 
-#search-bar button {
+.search-bar-1 button {
     height: 26px;
     width: 60px;
     margin: 0px;
@@ -77,15 +87,14 @@ nav ul li {
 }
 
 .body-container {
-    display: flex;
     margin-left: 8%;
     margin-right: 10%;
-    background-color: b#f7f5f5;
+    background-color: #f7f5f5;
 
 }
 
 .left-container {
-    background-color: f7f5f5;
+    background-color: #f7f5f5;
     margin-top: 1.5em;
     width: 60%;
 }
@@ -109,7 +118,6 @@ nav ul li {
 }
 
 .views-container {
-    display: flex;
     align-items: center;
     justify-content: space-between;
     color: grey;
@@ -132,10 +140,8 @@ nav ul li {
 }
 
 .info-container {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: px;
 }
 
 .profile-button img {
@@ -190,7 +196,6 @@ nav ul li {
 }
 
 .sort-sections {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
 
@@ -212,7 +217,6 @@ nav ul li {
 }
 
 .comment-section {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
 
@@ -223,7 +227,6 @@ nav ul li {
 }
 
 .public-comment {
-    display: flex;
     flex-direction: column;
     margin-bottom: 20px;
 }
@@ -241,7 +244,6 @@ nav ul li {
 }
 
 .first-comment {
-    display: flex;
     flex-direction: row;
     font-family: Roboto, Arial, sans-serif;
     line-height: 0.2rem;
@@ -276,7 +278,6 @@ nav ul li {
 }
 
 .up-next {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     line-height: 1rem;
@@ -296,10 +297,8 @@ nav ul li {
 }
 
 .video {
-    display: flex;
     flex-direction: row;
     background-color: #f7f5f5;
-
 }
 
 .video p {
@@ -308,7 +307,6 @@ nav ul li {
     margin-right: -10px;
     color: gray;
     line-height: 0.3rem;
-
 }
 
 .video h4 {
@@ -316,12 +314,9 @@ nav ul li {
     font-family: Roboto, Arial, sans-serif;
     line-height: 0.12rem;
     font-weight: 600;
-
-
 }
 
 .right-description {
     margin-top: -16px;
     margin-left: 10px;
-
 }
