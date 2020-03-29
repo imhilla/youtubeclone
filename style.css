@@ -265,22 +265,28 @@ font-family: Roboto, Arial, sans-serif;
 }.video{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     background-color: #f7f5f5;
 
-}.video p{
-    font-family: Roboto, Arial, sans-serif;
-    font-size: 10px;
-    margin-right: -10px;
-    color: gray;
-    line-height: 0.8px;
-    
 }
 
+.video p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    margin-right: -10px;
+    color: gray;
+    line-height: 0.3rem;
+   
+}
 .video h4{
     font-family: Roboto, Arial, sans-serif;
-    line-height: 0.3px;
+    line-height:0.12rem ;
  
+ 
+}
+.right-description{
+   margin-top: -18px;
+   margin-left: 10px;
+
 }
     
 
