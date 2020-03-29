@@ -112,6 +112,7 @@ nav ul li {
     justify-content: space-between;
     color: grey;
     height: 25px;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 .likes-section a {
@@ -156,12 +157,12 @@ nav ul li {
 
 .column-text {
     font-family: Roboto, Arial, sans-serif;
-    margin-left: -45px;
+    margin-left: -40px;
 
 }
 
 .column-text p {
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1em;
     margin-left: -45px;
     font-family: Roboto, Arial, sans-serif;
@@ -278,8 +279,10 @@ font-family: Roboto, Arial, sans-serif;
    
 }
 .video h4{
+    color: #212121 ;
     font-family: Roboto, Arial, sans-serif;
     line-height:0.12rem ;
+    font-weight: 600;
  
  
 }
