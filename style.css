@@ -275,6 +275,13 @@ font-family: Roboto, Arial, sans-serif;
     background-color: #f7f5f5;
 
 }
+.video h4{
+    font-family: Roboto, Arial, sans-serif;}
 .right-description{
     line-height: 2px;
+}
+.title-video{
+    font-weight: bold;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 100px;
 }
