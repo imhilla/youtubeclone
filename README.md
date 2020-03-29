@@ -13,8 +13,7 @@ Built With
 Major frameworks
 HTML and CSS
 
-Author
-👤 Author1
+👤 Author
 
 Github: @imhilla
 Twitter: @hillarykiptoo_
