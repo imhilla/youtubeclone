@@ -1,83 +1,82 @@
-body {
-    background-color: #f7f5f5;
-}
-nav , 
-.left-bar,
-.body-container, nav ul, .views-container, 
-.info-container, .comment-section, 
-.public-comment, .first-comment, 
-.up-next, .video
-{ 
+.display, nav ul, .first-comment, .video{
     display: flex;
 }
-.color{
-    background-color: white;
+.video, .first-comment,
+.up-next, 
+.comment-section,
+.sort-sections, 
+.info-container, 
+nav{
+    flex-direction: row;
 }
+.font{
+    font-family: Roboto, Arial, sans-serif;
+}
+.views-container, .sort-sections, .up-next, .info-container, .comment-section,
+nav{
+    justify-content: space-between;
+}
+
 .main-container {
     margin-top: -10px;
     margin-left: auto;
     margin-right: auto;
 }
-
+.search-bar-1,
+ nav{
+    background-color: white;
+}
+.body-container, body,
+.left-container, .tittle, .right-container, .video
+{
+    background-color:#f7f5f5 ;
+}
 nav {
-    flex-direction: row;
-    display: flex;
     height: 60px;
     width: 100%;
-    background-color: white;
     margin-top: -10px;
-    justify-content: space-between;
 }
-
 .left-bar {
     justify-content: start;
     margin-top: 0.5rem;
 }
-
+.views-container, .likes-section a, .odin span,
+ .show-more a, .public-comment p,
+ .up-next span,.prof3 a, .video p,.sort-sections a{
+    color: gray;
+}
 .menu-button {
     height: 5px;
     border: 0;
-    background-color: white;
     margin-left: 1rem;
     margin-top: 1rem;
     cursor: pointer;
 }
-
 .logo {
     margin-left: 1rem;
     margin-bottom: -2rem;
     height: 30px;
 }
-
 .search-bar-1 {
     margin-top: 1.5rem;
-    border-color: white;
-
 }
-
 nav ul {
     margin-right: -10px;
     list-style-type: none;
 }
-
 nav ul li {
     padding: 2rem;
     margin-left: -40px;
     margin-top: -20px;
     color: rgb(233, 233, 233);
 }
-
 .search-bar-1 input {
     height: 20px;
     margin: 0;
-
 }
-
 .search-bar-1 {
     margin-top: 1.5rem;
-    border-color: white;
 }
-
 .search-bar-1 button {
     height: 26px;
     width: 60px;
@@ -85,81 +84,48 @@ nav ul li {
     cursor: pointer;
     margin-left: -7px !important;
 }
-
 .body-container {
     margin-left: 8%;
     margin-right: 10%;
-    background-color: #f7f5f5;
-
 }
-
 .left-container {
-    background-color: #f7f5f5;
     margin-top: 1.5em;
     width: 60%;
 }
-
 .video-container iframe {
     border: 0;
 }
-
 .title {
     color: #212121;
-    font-family: Roboto, Arial, sans-serif;
     font-weight: normal;
     font-size: 10px;
-    background-color: #f7f5f5;
-
 }
-
-.views-date {
-    font-family: Roboto, Arial, sans-serif;
-
-}
-
 .views-container {
     align-items: center;
-    justify-content: space-between;
-    color: grey;
     height: 25px;
-    font-family: Roboto, Arial, sans-serif;
 }
-
 .likes-section a {
     display: inline-block;
     align-items: center;
     justify-content: center;
     margin: 0.5rem;
     text-decoration: none;
-    color: grey;
     border-bottom: grey;
 }
-
 .likes-section span {
     font-size: 0.8rem;
 }
-
-.info-container {
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 .profile-button img {
     border-radius: 50%;
     width: 75px;
 }
-
 .odin a {
-    font-family: Roboto, Arial, sans-serif;
     text-decoration: none;
     font-weight: bold;
-
 }
 .odin span{
-    color: gray;
     margin-left: -45px;
 }
-
 .subscribe {
     color: white;
     background-color: #cc0000;
@@ -170,152 +136,89 @@ nav ul li {
     line-height: 1em;
     border: 0;
     padding: 10px 16px;
-
 }
-
 .column-text {
-    font-family: Roboto, Arial, sans-serif;
     margin-left: -40px;
-
 }
-
 .column-text p {
     font-size: 13px;
     line-height: 1em;
     margin-left: -45px;
-    font-family: Roboto, Arial, sans-serif;
     color: #0d0d0d;
 }
-
 .show-more a {
     text-decoration: none;
-    color: gray;
     font-size: 0.8rem;
     margin-left: -45px;
-
 }
-
-.sort-sections {
-    flex-direction: row;
-    justify-content: space-between;
-
-}
-
 .sort-sections p {
-    font-family: Roboto, Arial, sans-serif;
     font-size: 16px;
     margin-top: -1.2px;
     line-height: 0.5rem;
 }
-
 .sort-sections a {
     text-decoration: none;
-    color: gray;
-    font-family: Roboto, Arial, sans-serif;
     font-size: 16px;
     margin-left: -600px;
 }
-
-.comment-section {
-    flex-direction: row;
-    justify-content: space-between;
-
-}
-
 .commenters {
     line-height: 0.1rem;
 }
-
 .public-comment {
     flex-direction: column;
     margin-bottom: 20px;
 }
-
 .public-comment p {
-    font-family: Roboto, Arial, sans-serif;
     font-size: 15px;
     line-height: 1em;
     margin-left: -640px;
-    color: gray;
 }
-
 .public-comment hr {
     margin-left: -640px;
 }
-
 .first-comment {
-    flex-direction: row;
-    font-family: Roboto, Arial, sans-serif;
     line-height: 0.2rem;
 }
-
 .prof1 {
     font-size: 16px;
 }
-
 .profile-column {
-    font-family: Roboto, Arial, sans-serif;
     line-height: 0.03rem;
 }
-
 .prof2 {
     font-size: 16px;
 }
-
 .prof3 a {
     list-style-type: none;
-    color: gray;
     text-decoration: none;
-    font-family: Roboto, Arial, sans-serif;
 }
-
 .right-container {
     margin-top: 1.5em;
-    background-color: #f7f5f5;
     margin-left: 20px;
     width: 700px;
     margin-right: -2px;
 }
-
 .up-next {
-    flex-direction: row;
-    justify-content: space-between;
     line-height: 1rem;
 }
-
 .up-next p {
-    font-family: Roboto, Arial, sans-serif;
     font-size: 14px;
     margin-top: 1px;
-
 }
-
 .up-next span {
-    color: gray;
-    font-family: Roboto, Arial, sans-serif;
     font-size: 14px;
 }
-
-.video {
-    flex-direction: row;
-    background-color: #f7f5f5;
-}
-
 .video p {
-    font-family: Roboto, Arial, sans-serif;
     font-size: 14px;
     margin-right: -10px;
-    color: gray;
     line-height: 0.3rem;
 }
 
 .video h4 {
     color: #212121;
-    font-family: Roboto, Arial, sans-serif;
     line-height: 0.12rem;
     font-weight: 600;
 }
-
 .right-description {
     margin-top: -16px;
     margin-left: 10px;
