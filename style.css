@@ -1,8 +1,8 @@
 .display, nav ul, .first-comment, .video{
     display: flex;
 }
-.video, .first-comment, .up-next, .comment-section,.sort-sections, 
-.info-container, nav{
+.video, .first-comment, .up-next, .comment-section,.sort-sections, .info-container, 
+nav{
     flex-direction: row;
 }
 .font{
@@ -201,6 +201,9 @@ nav ul li {
 }
 .up-next span {
     font-size: 14px;
+}
+.video{
+    cursor: pointer;
 }
 .video p {
     font-size: 14px;
